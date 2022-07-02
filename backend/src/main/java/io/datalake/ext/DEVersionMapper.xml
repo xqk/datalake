@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="io.datalake.ext.DEVersionMapper">
+
+    <select id="lastSuccessDataLakeVersion" resultType="Integer">
+		select installed_rank from datalake_version where success = 1  order by installed_rank desc limit 1
+    </select>
+
+    <select id="lastDataLakeCodeVersion" resultType="Integer">
+		select installed_rank from datalake_code_version  order by installed_rank desc limit 1
+    </select>
+</mapper>
