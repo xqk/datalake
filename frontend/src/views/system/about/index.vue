@@ -145,7 +145,7 @@ export default {
       })
     },
     support() {
-      const url = 'https://support.fit2cloud.com/'
+      const url = 'https://www.icl.site/datalake/index.html'
       window.open(url, '_blank')
     },
     beforeUpload(file) {

@@ -20,7 +20,7 @@ import java.util.Map;
  */
 @Service
 public class ReptileService {
-    String blogUrl = "https://blog.fit2cloud.com/?cat=321";
+    String blogUrl = "https://www.icl.site";
     //获取最新的前几条数据
     private static int infoCount=1;
 
@@ -46,7 +46,7 @@ public class ReptileService {
             //ignore
             Map<String, String> infoMap = new HashMap();
             infoMap.put("title","支持移动端展示，数据源新增对DB2的支持，DataLake开源数据可视化分析平台v1.6.0发布");
-            infoMap.put("href","https://blog.fit2cloud.com/?p=3200");
+            infoMap.put("href","https://www.icl.site");
             infoMap.put("time","2022年1月10日");
             result.add(infoMap);
         }

@@ -74,8 +74,8 @@ public class Knife4jConfiguration implements BeanPostProcessor{
         return new ApiInfoBuilder()
                 .title("DataLake")
                 .description("人人可用的开源数据可视化分析工具")
-                .termsOfServiceUrl("https://datalake.io")
-                .contact(new Contact("Datalake","https://www.fit2cloud.com/datalake/index.html","datalake@fit2cloud.com"))
+                .termsOfServiceUrl("https://www.icl.site/datalake/index.html")
+                .contact(new Contact("Datalake","https://www.icl.site/datalake/index.html","xiaqiankun@outlook.com"))
                 .version(version)
                 .build();
     }

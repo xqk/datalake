@@ -8,7 +8,7 @@
       </el-row>
     </el-row>
     <el-row class="demo_bottom">
-      <a href="https://blog.fit2cloud.com/?cat=321" target="_blank">{{ $t('wizard.show_more') }}</a>
+      <a href="https://www.icl.site/datalake/index.html" target="_blank">{{ $t('wizard.show_more') }}</a>
     </el-row>
   </el-row>
 </template>

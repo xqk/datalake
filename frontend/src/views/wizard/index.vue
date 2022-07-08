@@ -40,45 +40,10 @@ export default {
     return {
       cardList: [
         {
-          head: this.$t('wizard.quick_start'),
-          content: this.$t('wizard.demo_video_hint'),
-          bottom: '',
-          href: 'https://www.bilibili.com/video/BV1i34y1v7hq/',
-          component: 'CardDetail'
-        },
-        {
-          head: this.$t('wizard.online_document'),
-          content: this.$t('wizard.online_document_hint'),
-          bottom: '',
-          href: 'https://datalake.io/docs/index.html',
-          component: 'CardDetail'
-        },
-        {
-          head: this.$t('wizard.latest_developments'),
-          content: '',
-          bottom: '',
-          href: 'https://blog.fit2cloud.com/?cat=321',
-          component: 'CardDetail'
-        },
-        {
-          head: this.$t('wizard.teaching_video'),
-          content: '<a href="https://www.bilibili.com/video/BV15P4y1u7Pa?spm_id_from=333.999.0.0" target="_blank">1.1 连接数据库并添加数据集</a><br><a href="https://www.bilibili.com/video/BV1cU4y1d77S?spm_id_from=333.999.0.0" target="_blank">1.2 Excel 数据集和 API 数据集</a><br><a href="https://www.bilibili.com/video/BV1zY411n7Q1?spm_id_from=333.999.0.0" target="_blank">1.3 数据集整合</a>',
-          bottom: '',
-          href: 'https://space.bilibili.com/510493147/channel/collectiondetail?sid=262774',
-          component: 'CardDetail'
-        },
-        {
-          head: this.$t('wizard.enterprise_edition'),
-          content: this.$t('wizard.enterprise_edition_hint1') + '<br>' + this.$t('wizard.enterprise_edition_hint2') + '<br>' + this.$t('wizard.enterprise_edition_hint3'),
-          bottom: '',
-          href: 'https://jinshuju.net/f/TK5TTd',
-          component: 'CardDetail'
-        },
-        {
           head: this.$t('wizard.contact_us'),
-          content: this.$t('wizard.email') + 'datalake@fit2cloud.com<br>' + this.$t('wizard.tel') + '400-052-0755<br>' + this.$t('wizard.web') + '<a target="_blank" href="https://www.datalake.io">www.datalake.io</a>',
+          content: this.$t('wizard.email') + 'xiaqiankun@outlook.com<br>' + this.$t('wizard.tel') + '<br>' + this.$t('wizard.web') + '<a target="_blank" href="https://www.icl.site">www.icl.site</a>',
           bottom: '',
-          href: 'https://www.datalake.io',
+          href: 'https://www.icl.site',
           component: 'CardDetail'
         }
       ],
